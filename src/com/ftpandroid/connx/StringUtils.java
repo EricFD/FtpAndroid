@@ -1,4 +1,4 @@
-package com.example.ftpandroid.connx;
+package com.ftpandroid.connx;
 
 /**
  * Varaible useful string Utilities

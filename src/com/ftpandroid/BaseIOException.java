@@ -1,4 +1,4 @@
-package com.example.ftpandroid;
+package com.ftpandroid;
 
 import java.io.IOException;
 

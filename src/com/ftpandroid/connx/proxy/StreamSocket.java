@@ -1,7 +1,8 @@
-package com.example.ftpandroid.connx.proxy;
+package com.ftpandroid.connx.proxy;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.SocketException;
 
@@ -29,6 +30,13 @@ public interface StreamSocket {
 	public void setSoTimeout(int timeout) throws SocketException;
 	
 	public int getSoTimeout() throws SocketException;
+	/**
+     * Get the socket's output stream
+     *
+     * @return stream
+     * @throws IOException
+     */
+    public OutputStream getOutputStream() throws IOException;
 	
 	public InetAddress getLocalAddress();
 	

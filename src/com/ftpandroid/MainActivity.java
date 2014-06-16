@@ -1,6 +1,6 @@
-package com.example.ftpandroid;
+package com.ftpandroid;
 
-import com.example.ftpandroid.R;
+import com.ftpandroid.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;

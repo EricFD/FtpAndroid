@@ -1,11 +1,11 @@
-package com.example.ftpandroid.connx.proxy;
+package com.ftpandroid.connx.proxy;
 
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
-import com.example.ftpandroid.debug.Logger;
+import com.ftpandroid.connx.debug.Logger;
 
 public class PlainSocket extends Socket implements StreamSocket{
 	/**
